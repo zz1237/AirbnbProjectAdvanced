@@ -1,0 +1,9 @@
+
+# dbt folders
+target/
+dbt_packages/
+logs/
+
+# dbt credentials
+profiles.yml
+dbt_internal_packages/
