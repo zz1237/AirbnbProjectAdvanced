@@ -1,5 +1,5 @@
 ## Overview
-This project implements an end-to-end ELT analytics pipeline for Airbnb-style data using S3 → Snowflake → dbt, following a Medallion Architecture and modeling -- Raw --> fact+dim --> analytics mart.
+This project implements an end-to-end ELT analytics pipeline for Airbnb-style data using S3 → Snowflake → dbt, following a Medallion Architecture and modeling -- raw --> staging --> fact+dim --> analytics mart.
 
 Compared to the previous [Airbnb project](https://github.com/zz1237/AirbnbProject), this implementation focuses on advanced dbt engineering practices, including unit testing, model contracts, data quality tests with external expectations package, hooks, and automated documentation.
 
